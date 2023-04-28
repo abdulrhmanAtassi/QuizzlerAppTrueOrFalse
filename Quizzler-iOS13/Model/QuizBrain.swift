@@ -57,8 +57,9 @@ struct QuizBrain{
         if cont + 1 < quiz.count {
             cont += 1
         } else {
-            cont = 0
-            score = 0
+            
+            cont = -1
+            
         }
     }
 }
